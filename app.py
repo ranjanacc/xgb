@@ -4,7 +4,7 @@ import numpy as np
 from prediction import predict
 st.title('Predictive Maintenance Web App') 
 st.markdown('To predict machine health of a wood cutting machine instantly.')
-st.markdown('The specific type of probem is also indicated to expedite failure preemption.')
+st.markdown('The specific type of problem is also indicated to expedite failure preemption.')
 air = st.number_input('Air Temperature [K]:') 
 process = st.number_input('Process Temperature [K]:') 
 rotation = st.number_input('Rotational Speed[rpm]:') 
